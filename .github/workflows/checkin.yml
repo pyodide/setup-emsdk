@@ -5,7 +5,9 @@ jobs:
   check_pr:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
 
     - name: "npm ci"
       run: npm ci
