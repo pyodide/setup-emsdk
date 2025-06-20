@@ -27,6 +27,15 @@ jobs:
 
       - name: Verify
         run: emcc -v
+  actions-use-cache-test-with-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup emsdk (use cache if found, create otherwise)
+        uses: pyodide/setup-emsdk@main
+        with:
+          version: 4.0.9
+          actions-cache-folder: 'emsdk-cache-folder'
+          no-cache: false
   no-install:
     runs-on: ubuntu-latest
     steps:
