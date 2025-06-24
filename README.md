@@ -1,3 +1,8 @@
+> [!TIP]
+> This repository hosts a friendly fork of the upstream [mymindstorm/setup-emsdk](https://github.com/mymindstorm/setup-emsdk) action. This repository is actively maintained by the Pyodide team and has been updated to support the latest GitHub Actions features.
+>
+>This repository shall be archived in the future once the upstream action comes back to maintenance and when mymindstorm/setup-emsdk#48 is merged.
+
 # setup-emsdk
 
 This actions step downloads emsdk and installs a version of Emscripten.
