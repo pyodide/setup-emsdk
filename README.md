@@ -1,7 +1,8 @@
-> [!TIP]
-> This repository hosts a friendly fork of the upstream [mymindstorm/setup-emsdk](https://github.com/mymindstorm/setup-emsdk) action. This repository is actively maintained by the Pyodide team and has been updated to support the latest GitHub Actions features.
+> [!NOTE]
 >
->This repository shall be archived in the future once the upstream action comes back to maintenance and when mymindstorm/setup-emsdk#48 is merged.
+> # Archival notice
+>
+> This repository hosted a friendly fork of the upstream [mymindstorm/setup-emsdk](https://github.com/mymindstorm/setup-emsdk) action until mymindstorm/setup-emsdk#48 was merged. At the time of writing, this form is no longer needed, as the upstream action has returned to active maintenance and has been merged into the Emscripten organisation. Please use it via https://github.com/emscripten-core/setup-emsdk.
 
 # setup-emsdk
 
